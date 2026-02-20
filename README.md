@@ -1,6 +1,12 @@
+<div align="center">
+
 # No Secrets
 
+<img src="assets/logo.png" alt="No Secrets" width="128" />
+
 [![Cursor Plugin](https://img.shields.io/badge/Cursor-Plugin-blue)](https://cursor.com/marketplace)
+
+</div>
 
 **Cursor plugin** — Detect possible secrets in your code and get clear remediation (env vars, secret managers). Install in Cursor and run `/no-secrets` or ask the agent to scan for secrets. Designed to reduce false positives and work alongside CI and pre-commit tools.
 

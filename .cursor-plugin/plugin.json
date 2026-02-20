@@ -1,0 +1,20 @@
+{
+  "name": "no-secrets",
+  "displayName": "No Secrets",
+  "version": "1.0.0",
+  "description": "Detect possible secrets in code, suggest remediation (env vars, secret managers), and optionally warn before push. Command-first; reduces false positives with allowlists and confidence levels.",
+  "author": {
+    "name": "Rakesh Bisht",
+    "email": "raks.bisht@gmail.com"
+  },
+  "homepage": "https://github.com/raksbisht/no-secrets",
+  "repository": "https://github.com/raksbisht/no-secrets",
+  "bugs": "https://github.com/raksbisht/no-secrets/issues",
+  "license": "MIT",
+  "keywords": ["secrets", "security", "env", "credentials", "scan", "pre-push"],
+  "category": "developer-tools",
+  "tags": ["security", "secrets", "productivity"],
+  "rules": "./rules/",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}
